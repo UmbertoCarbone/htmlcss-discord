@@ -42,7 +42,7 @@ Celeste e Rosa*/
 }
 
 header {
-  background-color: #255ee9;
+  background-color: #255de9;
   padding: 20px;
   text-align: center;
   
@@ -154,7 +154,7 @@ div {
 }
 
 .box-lightblue {
-  background-color: #1e8fff;
+  background-color: #1e8fff00;
   display: flex;
   align-content: center;
   margin: 0px;
@@ -164,7 +164,7 @@ div {
 }
 
 .box-pink {
-  background-color: #ffc0cb;
+  background-color: #ffc0cb00;
   display: flex;
   margin: 0px;
   width: 400px;
@@ -183,14 +183,40 @@ div {
 }
 
 .container-green {
-  background-color: #228b22;
+  background-color: #228b2200;
   margin: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   width: 1522px;
   height: 800px;
-  border: 2px dashed black;
-}
+  border: 2px dashed rgba(0, 0, 0, 0);
+  text-align: center;
+  }
+
+  .container-green h3 {
+    background-image: url(./img/stars.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:60px 20px 4px 9px;
+    display:flex;
+    
+    
+  
+    
+    }
+  
+    .container-green a {
+    background-color:#8EA1E1;
+  border-radius: 20px;
+  padding: 8px 13px;
+
+  }
+
+  
+
+
+
 /* Fine Main */
 
 /* Inizio Footer */
