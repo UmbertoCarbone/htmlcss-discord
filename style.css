@@ -33,7 +33,11 @@ Celeste e Rosa*/
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: 700;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 header {
@@ -61,7 +65,7 @@ div {
   padding: 5px 10px;
   width: 40%;
   margin: 0;
-  border: 1px dashed rgba(0, 0, 0, 0);
+  border: 1px dashed rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   /* flex-basis: 20%;  */
@@ -78,7 +82,7 @@ div {
 }
 
 .login {
-  background-color: #daa52000;
+  background-color: #daa520;
   padding: 5px 10px;
   width: 5%;
   margin: 0;
@@ -105,14 +109,13 @@ div {
   justify-content: center;
   width: 764px;
   height: 500px;
-  border: 2px dashed rgba(0, 0, 0, 0);
+  border: 2px dashed rgb(0, 0, 0);
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  
 }
 
-.container-pink h1 {
+.container-pink h2 {
   color: white;
   font-size: 2rem;
   display: flex;
@@ -124,24 +127,22 @@ div {
   display: flex;
 }
 
-.Mac{
+.Mac {
   background-color: white;
   border-radius: 20px;
   padding: 8px 13px;
 }
 
 .login-discord {
-  background-color: #23272A;
+  background-color: #23272a;
   border-radius: 20px;
   padding: 8px 13px;
 }
 
 .container-pink .call-to-actions {
-  display:flex;
+  display: flex;
   gap: 50px;
 }
-
-
 
 .bg-white {
   background-color: rgb(255, 255, 255);
@@ -151,11 +152,11 @@ div {
 }
 
 .box-lightblue {
-  background-color: #1e90ff;
+  background-color: #1e8fff;
   display: flex;
   align-content: center;
   margin: 0px;
-  width: 922px;
+  width: 722px;
   height: 400px;
   border: 2px dashed black;
 }
@@ -163,11 +164,12 @@ div {
 .box-pink {
   background-color: #ffc0cb;
   display: flex;
-  align-content: center;
   margin: 0px;
-  width: 600px;
+  width: 400px;
   height: 400px;
   border: 2px dashed black;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .bg-grey {
@@ -176,11 +178,6 @@ div {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-}
-
-.bg-grey {
-  background-color: #d3d3d3;
-  padding: 100px;
 }
 
 .container-green {
