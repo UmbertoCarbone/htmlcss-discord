@@ -221,6 +221,8 @@ div {
 
 /* Inizio Footer */
 
+
+
 .bg-darkgrey {
   background-color: #23272a;
   padding: 0.5% 20% 2% 20%;
@@ -229,17 +231,53 @@ div {
 }
 
 .container-peach-pink {
-  background-color: #f08080;
+  background-color: #f0808000;
   width: 40%;
   height: 600px;
   border: 2px dashed rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+  .container-peach-pink div{
+  padding:20px 10px;
+  display: flex;
+  flex-direction:row; 
+} 
+.container-peach-pink h2{
+  color: #5E70AF;
+}
+
+.container-peach-pink ul{ 
+  padding:20px 10px;
+  display: flex;
+  
+}
+
+.container-peach-pink ul li{
+  display: flex;
+  align-items: center;
+  padding:20px 10px;
+  list-style: none;
+
+}
+
+.fa-brands {
+  color:white;
+  font-size:large;
+ }
+
 
 .teal {
   background-color: #20b2aa;
   border: 2px dashed rgb(255, 255, 255);
   width: 20%;
 }
+
+
+  
+
+
 /*
    #teal {
       background-color: #ffc0cb;
@@ -288,7 +326,7 @@ hr {
   justify-content: center;
 }
 
-button + .logo {
+.button .logo {
   background-color: green;
 }
 /* */
